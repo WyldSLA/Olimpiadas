@@ -44,6 +44,32 @@ section button{
     font-size: 1rem;
     cursor: pointer;
 }
+
+section button:hover{
+    background-color: #30475E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.resultados-pesquisa{
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+.item-resultado{
+    background-color: #FFFFFF;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.item-resultado h2{
+    font-size: 1.5rem;
+    color: #222831;
+}
+
+
 footer{
     background-color: #F5F7F8;
     color:#45474B;
