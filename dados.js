@@ -10,9 +10,8 @@ let atletas = [
         link: "https://pt.wikipedia.org/wiki/Beatriz_Souza"
     },
     {
-        nome: "Ana Patrícia e Duda",
-        descricao: "A dupla de vôlei de praia formada por Ana Patrícia e Duda conquistou a medalha de ouro nos Jogos Olímpicos de Paris 2024, mostrando um jogo impecável e muita sincronia. Elas se tornaram as grandes campeãs da modalidade.",
-        link: "https://pt.wikipedia.org/wiki/Ana_Patrícia_Rego",
-        link2: "https://pt.wikipedia.org/wiki/Duda_Lisboa"
+        nome: "Rayssa Leal",
+        descricao: "Rayssa Leal, carinhosamente apelidada de Fadinha, é uma skatista brasileira que conquistou o mundo com seu talento e carisma. Nascida em Imperatriz, no Maranhão, ela se tornou a mais jovem medalhista olímpica brasileira,",
+        link: "https://pt.wikipedia.org/wiki/Rayssa_Leal",
     }
 ]
