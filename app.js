@@ -1,13 +1,12 @@
 function pesquisar(){
     let section = document.getElementById("resultados-pesquisa")
     let campoPesquisa = document.getElementById("campo-pesquisa").value
+    
     if (!campoPesquisa){
         section.innerHTML = "<p>Nenhum atleta/esporte foi encontrado!</p>"
         return
     }
-    if (!res){
-        res = "<p>Nada foi encontrado. Você não procurou nenhum atleta/esporte.</p>"
-    }
+    
     let res = ""
     let nome = ""
     let desc = ""
@@ -25,6 +24,10 @@ function pesquisar(){
             <p><a href="${atleta.link}" target="_blank">Mais Informações</a></p>
             </div>`
         }
+    }
+
+    if (!res){
+        res = "<p>Nada foi encontrado. Você não procurou nenhum atleta/esporte.</p>"
     }
     section.innerHTML = res
 }
